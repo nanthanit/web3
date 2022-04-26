@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONEPLUS LOGIN</title>
+   
+</head>
+<script>
+    function validateForm() {
+    let x = document.forms["myForm"]["name"].value;
+    if (x == "") {
+      alert("Name must be filled");
+      return false;
+    }
+   
+  }
+  function validateForm() {
+    let y = document.forms["myForm"]["email"].value;
+    if (y == "") {
+      alert("mail must be filled");
+      return false;
+    }
+   
+  }
+  function validateForm() {
+    let z = document.forms["myForm"]["password"].value;
+    if (z == "") {
+      alert("password must be filled");
+      return false;
+    }
+   
+  }
+  function validateForm() {
+    let a = document.forms["myForm"]["ph"].value;
+    if (a == "") {
+      alert("ph must be filled");
+      return false;
+    }
+   
+  }
+  </script>
+<body>
+  <center>
+      <p style="font-size:20px;background-image:url(https://image01.oneplus.net/shop/202003/18/1-M00-12-06-rB8LB15x5N6ADu3nAACrv1pu1Rk570.png);
+      width:1200px;height:500px;background-size:cover;color:white;text-align:center;padding-left:30px;"><br><br><br><br></p>  
+      
+
+        <h1><u>OnePlus Login</u></h1><br>
+    <form name="myForm" action="oneplus.html" onsubmit="returnvalidateForm()" >
+        <h2><u>User Name:</u></h2>
+        <input type="text" name="name" required><br>
+        <h2><u>Email:</u></h2>
+        <input type="email" name="email" required><br>
+        <h2><u>Password:</u></h2>
+        <input type="password" name="password" required><br>
+        <h2><u>Phone number:</u></h2>
+        <input type="tel" name="ph" pattern="[0-9]{10}" required><br><br><br>
+        <button style="font-size:20px;">Submit</button>
+      </form>
+      </center>
+</body>
+</html>
